@@ -1,6 +1,6 @@
 # frontend
 
-Example frontend for Django backend
+Pyhton Flutter Demo
 
 ## Getting Started
 

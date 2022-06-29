@@ -33,3 +33,4 @@
 - [Admin site](http://localhost:8077/admin/)
 - [API overview](http://localhost:8077/)
 - [Person overview](http://localhost:8077/persons/) (Need to log in first using admin site)
+#admin deMo.123 -> settings.py 
