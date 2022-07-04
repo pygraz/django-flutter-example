@@ -30,7 +30,10 @@
 
 ## Backend links
 
-- [Admin site](http://localhost:8077/admin/)
+- [Admin site](http://localhost:8077/admin/); when asked to log in, use user
+  `admin` with password `deMo.123` (as specified in `settings.py)`.
 - [API overview](http://localhost:8077/)
-- [Person overview](http://localhost:8077/persons/) (Need to log in first using admin site)
-#admin deMo.123 -> settings.py 
+- [Person overview (interactive)](http://localhost:8077/persons/) (Need to log
+  in first using admin site)
+- [Person overview (plain JSON)](http://localhost:8077/persons/?format=json)
+  (Need to log in first using admin site)
