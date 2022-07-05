@@ -30,7 +30,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     # When accessed via local web browser
     "127.0.0.1",
-    "localhost"
+    "localhost",
     # When accessed via Android emulator
     "10.0.2.2",
 ]
