@@ -21,7 +21,7 @@ exclude = '''
 profile = "black"
 line_length = 120
 default_section = "THIRDPARTY"
-known_first_party = "core,django_search_example,gutensearch,scripts,tests"
+known_first_party = "core,personbook,scripts,tests"
 
 [tool.pytest.ini_options]
 minversion = "7.0"
@@ -34,27 +34,27 @@ testpaths = [
 
 [tool.poetry]
 name = "django-search-example"
-version = "0.1.0"
+version = "1.0.0"
 description = ""
 authors = ["Thomas Aglassinger <roskakori@users.sourceforge.net>"]
 
 [tool.poetry.dependencies]
-python = ">=3.8, <4"
-Django = "^4.0.4"
-django-extensions = "^3.1.5"
-django-debug-toolbar = "^3.4.0"
-djangorestframework = "^3.13.1"
+python = ">=3.12, <4"
+Django = "^4"
+django-extensions = "^3"
+django-debug-toolbar = "^3"
+djangorestframework = "^3"
+pyyaml = "^6"
 
 [tool.poetry.dev-dependencies]
-pytest = "^7.1.2"
-docker-compose = "^1.29.2"
-pytest-django = "^4.5.2"
-pytest-cov = "^3.0.0"
-pre-commit = "^2.19.0"
+pytest = "^8"
+pytest-django = "^4"
+pytest-cov = "^6"
+pre-commit = "^4"
 
 [pycodestyle]
 max-line-length = 120
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=1.8.1"]
 build-backend = "poetry.core.masonry.api"
