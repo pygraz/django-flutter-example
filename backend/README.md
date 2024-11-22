@@ -2,7 +2,7 @@
 
 ## First time setup
 
-1. Install Python3.8+
+1. Install Python 3.12+
 2. Install [poetry](https://python-poetry.org/)
 3. Install the dependencies:
    ```bash
